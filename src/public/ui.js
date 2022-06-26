@@ -13,8 +13,8 @@ const noteUI = (note) => {
       <div class="d-flex justify-content-between">
           <h1 class="card-title h3">${note.title}</h1>
           <div>
-              <button class="btn btn-danger delete" data-id="${note._id}">delete</button>
-              <button class="btn btn-secondary update" data-id="${note._id}">update</button>
+              <button class="btn btn-danger delete" data-id="${note._id}">eliminar</button>
+              <button class="btn btn-secondary update" data-id="${note._id}">actualizar</button>
           </div>
       </div>
       <p>${note.description}</p>
